@@ -2,10 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.itsallbinary</groupId>
-	<artifactId>web-socket-tutorial</artifactId>
+	<groupId>com.demo</groupId>
+	<artifactId>web-socket-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -21,11 +22,11 @@
 			<version>1.1</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>io.vertx</groupId>
 			<artifactId>vertx-core</artifactId>
-			<version>4.3.2</version>
-		</dependency>
+			<version>4.0.0</version>
+		</dependency>-->
 
 	</dependencies>
 
